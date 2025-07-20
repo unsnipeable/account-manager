@@ -11,3 +11,4 @@ Allows you to sign in to Microsoft accounts in-game.
 - Vxrtrauter - for adding cookie login, cracked support & auto name gen
 - WhatsYouss - for made access token login
 - Sink - for improved and integration code
+- matanku - for made MMC ban time
