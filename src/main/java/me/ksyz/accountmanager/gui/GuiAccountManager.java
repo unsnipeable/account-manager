@@ -96,7 +96,7 @@ public class GuiAccountManager extends GuiScreen {
     drawCenteredString(
             fontRendererObj,
             TextFormatting.translate(String.format(
-                    "&rAccount Manager &8(&7%s&8)&r", AccountManager.accounts.size()
+                    "&rAccount Manager &8(&7%s&8)&r &0| &fHypixel &7| &fMinemen", AccountManager.accounts.size()
             )),
             width / 2, 20, -1
     );
@@ -425,7 +425,7 @@ public class GuiAccountManager extends GuiScreen {
       );
 
       GuiAccountManager.this.drawString(
-              fr, unban + "&r &7| &r" + unbanMMC, x + getListWidth() - 5 - fr.getStringWidth(unban + " | " + unbanMMC), int_4 + 2, -1
+              fr, unban + "§r §7| §r" + unbanMMC, x + getListWidth() - 5 - fr.getStringWidth(unban + " | " + unbanMMC), int_4 + 2, -1
       );
     }
   }
